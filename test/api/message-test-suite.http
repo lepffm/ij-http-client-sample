@@ -1,0 +1,24 @@
+###
+GET {{HOST}}/message
+
+> {%
+  client.test('GET /message', () => {
+    client.assert(response.status === 200)
+  })
+%}
+
+###
+POST {{HOST}}/message
+Content-Type: application/json
+
+{
+  "id": "inputId",
+  "text": "inputVal"
+}
+
+> {%
+  client.test('POST /message', () => {
+    client.log(response.status)
+    client.assert(response.status === 200)
+  })
+%}
