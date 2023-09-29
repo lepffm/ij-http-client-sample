@@ -1,0 +1,21 @@
+###
+GET {{HOST}}/second/second
+
+> {%
+  client.test('GET /second/{name}', () => {
+    client.assert(response.status === 200)
+  })
+%}
+
+###
+POST {{HOST}}/second/second
+Content-Type: application/json
+
+{}
+
+> {%
+  client.test('POST /second/{name}', () => {
+    client.log(response.status)
+    client.assert(response.status === 200)
+  })
+%}

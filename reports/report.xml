@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="6" name="IntelliJ IDEA HTTP Client">
+<testsuites tests="12" name="IntelliJ IDEA HTTP Client">
   <testsuite tests="6" name="message-test-suite" failures="0" errors="0" skip="0">
-    <testcase classname="http._1" name="Response" time="1.323" />
-    <testcase classname="http._1" name="GET /message" time="0.004" />
-    <testcase classname="http._1" name="Response Handler" time="0.714" />
-    <testcase classname="http._2" name="Response" time="0.023" />
-    <testcase classname="http._2" name="POST /message" time="0.016" />
-    <testcase classname="http._2" name="Response Handler" time="0.145" />
+    <testcase classname="http._1" name="Response" time="1.574" />
+    <testcase classname="http._1" name="GET /message" time="0.006" />
+    <testcase classname="http._1" name="Response Handler" time="0.966" />
+    <testcase classname="http._2" name="Response" time="0.034" />
+    <testcase classname="http._2" name="POST /message" time="0.045" />
+    <testcase classname="http._2" name="Response Handler" time="0.215" />
+  </testsuite>
+  <testsuite tests="6" name="second-test-suite" failures="0" errors="0" skip="0">
+    <testcase classname="http._1" name="Response" time="0.032" />
+    <testcase classname="http._1" name="GET /second/{name}" time="0.017" />
+    <testcase classname="http._1" name="Response Handler" time="0.168" />
+    <testcase classname="http._2" name="Response" time="0.042" />
+    <testcase classname="http._2" name="POST /second/{name}" time="0.042" />
+    <testcase classname="http._2" name="Response Handler" time="0.193" />
   </testsuite>
 </testsuites>
 

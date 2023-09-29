@@ -11,6 +11,10 @@
 
 ## api test execution
 ```
+# all (sub directory not support)
+ijhttp test/api/*.http --report --env-file=test/api/local.env.json --env=local
+
+# 1 file
 ijhttp test/api/message-test-suite.http --report --env-file=test/api/local.env.json --env=local
 ```
 
