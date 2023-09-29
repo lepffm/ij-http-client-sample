@@ -48,5 +48,6 @@ Content-Type: application/json
 - test case name : test function name  e.g, `client.test('your-test-case-name', () => {})`
 
 ## references
-- https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html
-- https://www.jetbrains.com/help/idea/http-client-cli.html
+- [IntelliJ http client]( https://www.jetbrains.com/help/idea/http-client-in-product-code-editor.html)
+- [IntelliJ http client cli](https://www.jetbrains.com/help/idea/http-client-cli.html)
+- [my opinion ](https://github.com/lepffm/issuance/issues/87)
